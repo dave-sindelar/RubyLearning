@@ -1,3 +1,4 @@
+#Celsius conversion via file to farhenheit
 puts "Reading Celsius temperature value from a data file..."
 num = File.read("temp.dat")
 celsius = num.to_i
